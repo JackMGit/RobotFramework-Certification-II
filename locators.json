@@ -1,0 +1,58 @@
+{
+    "site.alert": {
+        "screenshot": ".images\\div-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "css",
+        "type": "browser",
+        "value": ".alert"
+    },
+    "site.form.address": {
+        "screenshot": ".images\\input-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "xpath",
+        "type": "browser",
+        "value": "//input[@id='address']"
+    },
+    "site.form.button.new": {
+        "screenshot": ".images\\button-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "xpath",
+        "type": "browser",
+        "value": "//button[@id='order-another']"
+    },
+    "site.form.button.order": {
+        "screenshot": ".images\\button-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "xpath",
+        "type": "browser",
+        "value": "//button[@id='order']"
+    },
+    "site.form.button.preview": {
+        "screenshot": ".images\\button-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "xpath",
+        "type": "browser",
+        "value": "//button[@id='preview']"
+    },
+    "site.form.head": {
+        "screenshot": ".images\\select-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "xpath",
+        "type": "browser",
+        "value": "//select[@id='head']"
+    },
+    "site.form.legs": {
+        "screenshot": ".images\\input-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "xpath",
+        "type": "browser",
+        "value": "/html/body/div/div/div[1]/div/div[1]/form/div[3]/input"
+    },
+    "site.popup_ok": {
+        "screenshot": ".images\\button-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "xpath",
+        "type": "browser",
+        "value": "/html/body/div/div/div[2]/div/div/div/div/div/button[1]"
+    }
+}
